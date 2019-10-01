@@ -1,1 +1,24 @@
 https://www.excel-easy.com/vba/examples/background-colors.html
+Private Sub CommandButton1_Click()
+
+
+Worksheets(1).Range("A1:A10").Value = "Hello world!"
+Worksheets(1).Range("A1:A10").Interior.Color = RGB(255, 255, 128)
+Worksheets(1).Range("A1:A10").ShrinkToFit = True
+Worksheets(1).Range("A1:A10").Font.Color = vbRed
+Worksheets(1).Range("A1:A10").Font.Bold = True
+Worksheets(1).Range("A1:A10").HorizontalAlignment = x1HAlignCenter
+
+
+x = Worksheets(1).Range("C40").Value = x
+
+
+For i = 1 To 10
+
+Worksheets(1).Range("C" & i).Value = i
+
+Next i
+
+
+
+End Sub
