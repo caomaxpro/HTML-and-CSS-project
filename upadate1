@@ -1,0 +1,87 @@
+<div class="wrap-top">
+					<table>
+						<tr>
+							<td><img id="icon1" src="image/icon-prop1.svg"></img></td>
+							<td><img id="icon2" src="image/icon-prop2.svg"></img></td>
+							<td><img id="icon3" src="image/icon-prop3.svg"></img></td>
+							<td><img id="icon4" src="image/icon-prop4.svg"></img></td>
+						</tr>
+						<tr>
+							<td><span>Awesome Benefits</span></td>
+							<td><span>Keepin’ It Clean</span></td>
+							<td><span>No Pressure</span></td>
+							<td><span>Locations</span></td>
+						</tr>
+						<tr>
+							<td><p>Need some ‘me time’?<br /> We’ve got you covered with free<br /> massage chairs and hydro massage beds<br /> with our Black Card membership.</p></td>
+							<td><p>Whether you’re a member<br /> or Club Manager, we all do our<br /> part to ensure our gyms are clean.</p></td>
+							<td><p>Choose a membership<br /> that works for you at a price<br /> that works for you.</p></td>
+							<td><p>With over 90 <br />locations coast to coast, we are <br />always there for you.</p></td>
+						</tr>
+					</table>
+				</div>
+				<div class="wrap-member">
+					<div class="wrap-left-member">
+						<div class="wrap-price-left">
+							<span id="span-left">Price inside</span>
+						</div>
+						<div class="wrap-ul-left">
+							<ul>
+								 <ul>
+										<li class="checked">No Annual Fee</li>
+										<li class="checked">Access to ALL locations</li>
+										<li class="checked"><strong>FREE</strong> 30-Minute Express Circuit<sup class="text">TM</sup></li>
+										<li class="checked">Virtual Fitness and Virtual Cycling<sup>**</sup></li>
+										<li class="checked">Commitment period of your choice<sup>*</sup>
+										<ul>
+											<li>1 Year Commitment<sup>*</sup> = $0 <strong>OR</strong></li>
+											<li>No Commitment = <strong>$44</strong></li>
+										</ul>
+										</li>
+										<li class="checked">Share your membership with friends &amp;<br>
+										family<sup>***</sup></li>
+										<li class="checked"><strong>FREE</strong> hydro massage bed use<sup>***</sup></li>
+										<li class="checked"><strong>FREE</strong> massage chair use<sup>***</sup></li>
+										<li class="checked"><strong>FREE</strong> tanning<sup>***</sup></li>
+										<li class="checked"><strong>FREE</strong> gym bag</li>
+										<li class="checked"><strong>FREE</strong> t-shirt</li>
+										<li class="checked">1/2 price cooler drinks<sup>**</sup></li>
+									</ul>
+								</ul>
+						</div>
+					</div>
+					<div class="wrap-right-member">
+						<div class="wrap-price-right">
+								<span id="span-right">Price inside</span>
+						</div>
+						<div class="wrap-ul-right">
+							<ul>
+										 <ul>
+											<li class="checked">No Annual Fee</li>
+											<li class="checked">Access to ONE location</li>
+											<li class="checked"><strong>FREE</strong> 30-Minute Express Circuit<sup class="text">TM</sup></li>
+											<li class="checked">Virtual Fitness and Virtual Cycling<sup>**</sup></li>
+											<li class="checked">1 Year Commitment<sup>*</sup>
+												<ul>
+													<li>Joining Fee<br>
+													$44</li>
+												</ul>
+											</li>
+											<li>Share your membership with friends &amp;<br>
+											family<sup>***</sup></li>
+											<li><strong>FREE</strong> hydro massage bed use<sup>***</sup></li>
+											<li><strong>FREE</strong> massage chair use<sup>***</sup></li>
+											<li><strong>FREE</strong> tanning<sup>***</sup></li>
+											<li><strong>FREE</strong> gym bag</li>
+											<li><strong>FREE</strong> t-shirt</li>
+											<li>1/2 price cooler drinks<sup>**</sup></li>
+										</ul>
+							</ul>
+						<div>
+					</div>
+				</div>
+				<div class="wrap-location">
+					<table>
+						
+					</table>
+				</div>
