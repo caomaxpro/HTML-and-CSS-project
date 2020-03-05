@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> The Footbolt Special Basket </title>
+<meta name= "DWS Drink" content="Wine">
+<meta name= "Drink" content="Wine">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+	<style>
+a:link, a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover:not(.active) {
+  text-decoration: none;
+  color: rgba(0, 255, 255, 0.8);
+}
+html{
+	height:100%;
+	width: 100%;
+}
+body{
+	width: 100%;
+	background: url("wine-background-3.jpg");
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+	overflow-y:auto;
+}
+
+
+table.a{
+	width: 50%;
+	padding: 2em;
+	font-style: oblique;
+	font-size : 4.5em;
+	color: #e6e6e6;
+	text-shadow: 1em 0.5em #a6a6a6;
+	font-family: Algerian; 
+	transform: translate(-12%, -75%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0.2em;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.6em;
+	text-shadow: 0 0 0.3em black;
+}
+
+li {
+    float: right;
+}
+
+li a.navigation {
+	font-style: oblique;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2em 2em;
+	text-decoration: none;
+}
+
+
+
+table.c{
+	width: 100%;
+	font-style: oblique;
+	font-size : 1.4em;
+	color: white;
+	text-align: center;
+	margin: -15em 0em; 
+	text-shadow: 0 0 0.3em black;
+}
+
+div.d{
+	background-color: white;
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	margin: 6.5em -0.2em; 
+	text-shadow: 0 0 0.3em white;
+	font-family: Kunstler Script; 
+	
+}
+
+div.center{
+	align: center;
+}
+img.staff{
+	width: 12em;
+	height: auto;
+}
+
+table.e{
+	width:70%;
+	margin: 0 5em;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0.5em;
+    text-align: center;
+	font-size: 0.4em;
+	font-family: Bell MT;
+	font-style: oblique;
+}
+ul.shop {
+	list-style-type: none;
+	margin: -1em 1em;
+	padding: 0.6em 0.15em;
+	width: 53%;
+}
+
+
+li a.active {
+	background-color: #000033;
+	padding: 0.3em 1em;
+	color: white;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-size: 0.3em;
+	font-family: Bell MT;
+	text-shadow: 0.1 white;
+}
+li a:hover:not(.navigation) {
+	background-color: rgba(0, 0, 51, 0.5);
+	color: rgba(250 250 250 0.5);
+}
+div.font{
+	text-align: center;
+	font-style: oblique;
+	font-size : 3em;
+	color: white;
+	text-shadow: 0 0 0.6em black;
+	transform: translate(-0.5em , -400%);
+	font-family: Bell MT; 
+}
+div.sentence{
+	padding: 3em;
+	background-color: rgb(36, 42, 53);
+	text-align: center;
+	font-style: oblique;
+	font-size : 2em;
+	color: white;
+	transform: translate(-0.5em , 0);
+	margin: 0 -0.3em;
+	font-family: Bell MT; 
+}
+footer{
+	background-color: rgb(238, 238, 238);
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	color: white;
+	margin: -0.13em -0.13em;
+	font-family: Bell MT; 
+	transform: translate(0 , 0.13em);
+}
+table.foot{
+	width: 100%;
+	text-align: left;
+}
+
+
+.font_a{
+	width: 47%;
+	padding-left: 9em;
+	padding-bottom: 1em;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.75em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+
+}
+.font_b{
+	padding-top: 1em;
+	padding-left: 3em;
+	text-align: left;
+	font-size : 0.5em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+.font_c{
+	padding-top: 1em;
+	padding-right:9em;
+	text-align: left;
+	font-size : 0.5em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+a.font_d {
+	padding-left: 17em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_e {
+	padding-left: 3.5em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_i {
+	padding-left: 10em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_f {
+	padding-right: 3.5em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+p.font_g {
+	padding-left: 17em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+p.font_h {
+	padding-left: 17em;
+	text-align: left;
+	font-size : 0.3em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+p.font_i {
+	padding-left: 17em;
+	text-align: left;
+	font-size : 0.3em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+	transform: translate(-6em , -2.3em);
+}
+input.Size_1{
+	padding: 1em;
+	width: 27em;
+	margin: 1em 15em;
+}
+input.submit{
+	padding: 1em 1em;
+	margin: 1em -14em;
+	color: white;
+	background-color: rgb(0, 0, 51);
+	border-color: rgb(0, 0, 51);
+}
+input:hover{
+	background-color: white;
+}
+input.submit:hover{
+	padding: 1em 1em;
+	margin: 1em -14em;
+	color: white;
+	background-color: rgba(0, 0, 51, 0.6);
+	border-color: rgba(0, 0, 51, 0.6);
+}
+
+td.tdsize1{
+	transform: translate(-1.8em , 0);
+}
+th.styleth{
+	font-size: 0.3em;
+	color: black;
+	font-family: Mongolian Baiti; 
+	transform: translate(9em , -0.5em);
+}
+p.description{
+font-size: 0.3em;
+font-family: BELL MT; 
+}
+.size{
+font-size: 0.5em;
+font-family: Mangolian Baiti; 
+font-style:oblique;
+text-align:left; 
+
+}
+.select{
+margin: 1em 3em;
+font-size: 1em;
+font-family:BELL MT; 
+padding-top: 0.2em;
+padding-left: 1em;
+
+}
+table.f{
+width: 80%;
+font-family:BELL MT;
+font-style:oblique;
+font-size: 0.4em;
+transform: translate(9em , 0);
+
+
+}
+td.borderline{
+padding-left: 1em;
+padding-right: 1em;
+border-left:1px black double;
+border-right:1px black double;
+
+}
+p.fh{
+
+font-family:BELL MT;
+font-size: 1.4em;
+}
+.fh1{
+	font-family: Mangolian Baiti;
+	text-align: left;
+	font-size: 0.8em;
+}
+.imgh{
+font-family:BELL MT;
+font-size: 0.8em;
+}
+img.related{
+	width: 4em;
+	height: 5em;
+}
+.reldesc{
+font-family:BELL MT;
+font-size: 0.5em;
+}
+table.g{
+margin:1em 7em;
+}
+td.pa{
+	padding-left: 1.7em;
+	padding-bottom: 2.5em;
+}
+td.borderline1{
+padding-left: 1em;
+padding-right: 1em;
+
+}
+	</style>
+</head>
+
+	<body>
+		<header>
+			<table class = "a">
+				<tr>
+					<td><a href= "DWS Drinks.html">DWS &Wine</a></td>
+					<ul>
+						<li><a class = "navigation" href= "Contact.html">Contact</a></li>
+						<li><a class = "navigation" href= "History.html">History</a></li>
+						<li><a class = "navigation" href= "Extras.html">Extras</a></li>
+						<li><a class = "navigation" href= "Wine.html">Wine</a></li>
+						<li><a class = "navigation" href= "Home page.html">Home</a></li>
+					</ul>
+				</tr>
+				<tr>
+					<table class = "c">
+						<tr>
+							<td>Give me books, French wine, fruit, fine weather<br>
+								and a little music played out of doors by somebody I do not know<br>
+								---------------- John Keats
+							</td>
+						</tr>
+					</table>
+				</tr>
+			</table>
+		</header>
+		
+			<div class = "d">
+				<br>
+					<table class = "e">
+						<tr>
+							<td>
+									<img class ="staff" src ="thGTYYWT1J.jpg">
+								
+								<div class="desc">The Footbolt Special Basket <br><br> $1999.00</div>
+								
+								
+							</td>
+							<td class = "pa">
+								<p>The Footbolt Special Basket </p>
+								<p class= "description">Make your quality time more good with our Footbolt special.<br>Get one of our best wine with the aromatic classic red candles and handmade Belgian Chocolate.<br>Give me books, French wine, fruit, fine weather and a little music played out of doors by somebody I do not know.</p>
+								<p class="size">YEAR
+								<br><select class="select">
+									<option value="1999">1999 </option>
+									<option value="1978">1978 </option>
+									<option value="1956">1956 </option>
+									<option value="2010">2010&emsp;</option>
+								</p></select>
+
+								<p class="size">QUANTITY
+								<br><select class="select">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+									<option value="13">13</option>
+									<option value="14">14</option>
+									<option value="15">15</option>
+									<option value="16">16</option>
+									<option value="17">17</option>
+								</p></select>
+
+								<p>
+									<ul class = "shop">
+										<li><a class = "active" >ORDER</a></li>
+									</ul>
+								</P>
+							</td>
+						</tr>
+					</table>
+					<table class="f">
+						<tr>
+							<td class = "borderline1">
+								<p class="fh">
+								Product Info<br>
+								</p>
+								<p class="fh1">
+									Make your quality time more good with our Footbolt special.<br>
+									Get one of our best wine with the aromatic classic red 
+									candles and handmade Belgian Chocolate.<br><br>
+									Give me books, French wine, fruit, fine weather and 
+									a little music played out of doors by somebody I do not know.
+								</p>
+							</td>
+							<td class = "borderline">
+								<p class="fh">
+								Returns & Refunds Policy<br>
+								</p>
+								<p class = "fh1">
+									Thanks for purchasing our products (or subscribing to our services) at our company operated by DWS.<br>
+									We offer a full money-back guarantee for all purchases made on our website.<br><br>
+									If you are not satisfied with the product that you have purchased from us, 
+									you can get your money back no questions asked.
+									You are eligible for a full reimbursement within 14 calendar days of your purchase.
+									<br><br><br>
+								</p>
+							</td>
+							<td class = "borderline1">
+								<p class="fh">
+								Shipping Info<br>
+								</p>
+								<p class = "fh1"> 	
+									1. Standard Shipping - Delivery typically takes between three to five business days.<br><br>
+									2. Express Shipping  - This is the most economical option. Delivery typically takes between five to eight business days.<br><br>
+									3. Must-Leave Shipping - if you have selected Must Leave. Must leave shipments have a $5.00 charge.
+								</p>
+							</td>
+						</tr>
+					</table>
+					<p class="imgh">Related Products</p>
+					<table class="g">
+						<tr>
+							<td>
+								<img class="related" src ="winecooler.jpg">
+								<p class="reldesc">Georg Jensen Wine Cooler</p>
+							</td>
+							<td>
+								<img class="related" src ="opener.jpg">
+								<p class="reldesc">Royal Selangor Letter Opener</p>
+							</td>
+							<td>
+								<img class="related" src ="opener2.jpg">
+								<p class="reldesc">Grips Soft HandleCan Opener</p>   
+							</td>
+							<td>
+								<img class="related" src ="eopener.jpg">
+								<p class="reldesc">Culinaire One Touch Can Opener</p>
+							</td>
+						</tr>
+					</table>
+			</div>
+				<div class = "font">
+					<a class = "navigation" href= "Contact.html">Contact Us</a>
+				</div>
+			<div class = "sentence">
+				<p>"Three be the things I shall never attain: envy, content and sufficient champagne."</p>
+				<p>Dorothy Parker</p>
+				<br>
+			</div>
+	</body>
+	<footer>
+	<br>
+		<table class = "foot">
+			<tr>
+				<th class = "font_a">
+					Get to Know 
+					<br>Dws Wine Better
+				</th>
+				<th class = "font_b">
+					Help
+
+				</th>
+				<th class = "font_c">
+					Follow Us
+
+				</th>
+				</th>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Home page.html">Home</a></td>
+				<td><a class = "font_e" href= "Question.html">FAQ</a></td>
+				<td><a class = "font_f" href= "https://www.facebook.com/">Facebook</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Wine.html">Shop All</a></td>
+				<td><a class = "font_e" href= "Returns.html">Shipping & Returns</a></td>
+				<td><a class = "font_f" href= "https://www.instagram.com/">Instagram</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Extras.html">Extras</a></td>
+				<td><a class = "font_e" href= "Policy.html">Store Policy</a></td>
+				<td><a class = "font_f" href= "Pinterest.html">Pinterest</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "History.html">About Us</a></td>
+				<td><a class = "font_e" href= "Policy.html">Payment Methods</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Contact.html">Contact</a></td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th><a class = "font_i" href= "Wine.html">Visit Our Stores</a>
+					<br>
+					<p class = "font_g">Customer service: 123-456-7890</p>
+				</th>
+				<th>
+					<form action="Home page.html">
+						<td>
+							<input class = "Size_1" type = "email" placeholder="Enter Your Email" maxlength="20">
+						</td>
+						
+						<td class = "tdsize1">
+							<input class = "submit" type="submit" value = "Subscribe Now">
+						</td>
+					
+					</form>
+				</th>
+			</tr>
+			<tr>
+				<th>
+				</th>
+				<th>
+				</th>
+				<th>
+					<p class = "font_i">Thanks for submitting!</p>
+				</th>
+			</tr>
+			<tr>
+				<th class = "styleth">
+					
+				</th>
+				<th class = "styleth">
+					&copy; Copyright by DWS
+				</th>
+				<th class = "styleth">
+					
+				</th>
+			</tr>
+		</table>
+	</footer>
+</html>

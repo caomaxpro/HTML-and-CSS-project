@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>Pinot Wine</title>
+<meta name= "DWS Drink" content="Wine">
+<meta name= "Drink" content="Wine">
+<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
+	<style>
+a:link, a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover:not(.active) {
+  text-decoration: none;
+  color: rgba(0, 255, 255, 0.8);
+}
+html{
+	height:100%;
+	width: 100%;
+}
+body{
+	width: 100%;
+	background:url("enjoy-a-glass-of-wine-1920x1080-wallpaper.jpg");
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+	overflow-y:auto;
+	
+}
+
+
+table.a{
+	width: 50%;
+	padding: 2em;
+	font-style: oblique;
+	font-size : 4.5em;
+	color: #e6e6e6;
+	text-shadow: 1em 0.5em #a6a6a6;
+	font-family: Algerian; 
+	transform: translate(-12%, -75%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0.2em;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.6em;
+	text-shadow: 0 0 0.3em black;
+}
+
+li {
+    float: right;
+}
+
+li a.navigation {
+	font-style: oblique;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2em 2em;
+	text-decoration: none;
+	text-shadow: 0 0 0.3em black;
+}
+
+
+
+table.c{
+	width: 100%;
+	font-style: oblique;
+	font-size : 1.4em;
+	color: white;
+	text-align: center;
+	margin: -15em 0em; 
+	text-shadow: 0 0 0.3em black;
+}
+
+div.d{
+	background-color: #f2f2f2;
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	margin: 6.5em -0.2em; 
+	text-shadow: 0 0 0.3em white;
+	font-family: Kunstler Script; 
+	
+}
+
+div.center{
+	align: center;
+}
+img{
+	width: 5em;
+	height: auto;
+	margin: 1em;
+}
+
+table.e{
+	padding-left: 15%;
+	width: 95%;
+	
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0.5em;
+    text-align: center;
+	font-size: 0.4em;
+	font-family: Bell MT;
+	font-style: oblique;
+}
+div.name {
+    padding: 0.4em;
+    text-align: right;
+	font-size: 0.3em;
+	font-family: Bell MT;
+	font-style: oblique;
+	margin: 0 4em;
+}
+li a.active {
+	background-color: #000033;
+	padding: 0.3em 1em;
+	color: white;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	font-size: 0.3em;
+	font-family: Bell MT;
+	text-shadow: 0.1 white;
+}
+li a:hover:not(.navigation) {
+	background-color: rgba(0, 0, 51, 0.5);
+	color: rgba(250 250 250 0.5);
+}
+div.font{
+	text-align: center;
+	font-style: oblique;
+	font-size : 3em;
+	color: white;
+	text-shadow: 0 0 0.6em black;
+	transform: translate(-0.5em , -400%);
+	font-family: Bell MT; 
+}
+div.sentence{
+	padding: 3em;
+	background-color: rgb(36, 42, 53);
+	text-align: center;
+	font-style: oblique;
+	font-size : 2em;
+	color: white;
+	transform: translate(-0.5em , 0);
+	margin: 0 -0.3em;
+	font-family: Bell MT; 
+}
+footer{
+	background-color: rgb(238, 238, 238);
+	text-align: center;
+	font-style: oblique;
+	font-size : 4em;
+	color: white;
+	margin: -0.13em -0.13em;
+	font-family: Bell MT; 
+	transform: translate(0 , 0.13em);
+}
+table.foot{
+	width: 100%;
+	text-align: left;
+	
+}
+
+
+.font_a{
+	width: 47%;
+	padding-left: 9em;
+	padding-bottom: 1em;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.75em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+
+}
+.font_b{
+	padding-top: 1em;
+	padding-left: 3em;
+	text-align: left;
+	font-size : 0.5em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+.font_c{
+	padding-top: 1em;
+	padding-right:9em;
+	text-align: left;
+	font-size : 0.5em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+a.font_d {
+	padding-left: 17em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_e {
+	padding-left: 3.5em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_i {
+	padding-left: 10em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+a.font_f {
+	padding-right: 3.5em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+p.font_g {
+	padding-left: 17em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.4em;
+	color: rgb(36, 42, 53);
+}
+p.font_h {
+	padding-left: 17em;
+	text-align: left;
+	font-size : 0.3em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+}
+p.font_i {
+	padding-left: 17em;
+	text-align: left;
+	font-size : 0.3em;
+	color: rgb(36, 42, 53);
+	font-family: Mongolian Baiti; 
+	transform: translate(-6em , -2.3em);
+}
+input.Size_1{
+	padding: 1em;
+	width: 27em;
+	margin: 1em 15em;
+}
+input.submit{
+	padding: 1em 1em;
+	margin: 1em -14em;
+	color: white;
+	background-color: rgb(0, 0, 51);
+	border-color: rgb(0, 0, 51);
+}
+input:hover{
+	background-color: white;
+}
+input.submit:hover{
+	padding: 1em 1em;
+	margin: 1em -14em;
+	color: white;
+	background-color: rgba(0, 0, 51, 0.6);
+	border-color: rgba(0, 0, 51, 0.6);
+}
+
+td.tdsize1{
+	transform: translate(-1.8em , 0);
+}
+th.styleth{
+	font-size: 0.3em;
+	color: black;
+	font-family: Mongolian Baiti; 
+	transform: translate(9em , -0.5em);
+}
+#mySidenav a {
+  position: absolute;
+  left: -4em;
+  transition: 0.4s;
+  padding-top: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 3em;
+  padding-bottom: 0.5em;
+  width: 3em;
+  height: 2em;
+  text-align: ;
+  text-decoration: none;
+  font-size: 0.4em;
+  font-family: BELL MT;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 22em;
+  background-color:rgba(16, 0, 51, 0.75);
+}
+
+#blog {
+  top: 31em;
+  background-color: rgba(16, 0, 51, 0.75);
+}
+
+#projects {
+  top: 40em;
+  background-color: rgba(16, 0, 51, 0.75);
+}
+
+#contact {
+  top: 49em;
+  background-color: rgba(16, 0, 51, 0.75);
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 25%;
+}
+p.font_l {
+	padding-left: 10em;
+	text-decoration: none;
+	font-family: Mongolian Baiti;
+	text-align: left;
+	font-style: oblique;
+	font-size : 0.3em;
+	color: rgb(36, 42, 53);
+	transform: translate(0.3em , -2.7em);
+}
+
+
+
+	</style>
+</head>
+
+	<body>
+		<header>
+			<table class = "a">
+				<tr>
+					<td><a href= "DWS Drinks.html">DWS &Wine</a></td>
+					<ul>
+						<li><a class = "navigation" href= "Contact.html">Contact</a></li>
+						<li><a class = "navigation" href= "History.html">History</a></li>
+						<li><a class = "navigation" href= "Extras.html">Extras</a></li>
+						<li><a class = "navigation" href= "Wine.html">Wine</a></li>
+						<li><a class = "navigation" href= "Home page.html">Home</a></li>
+					</ul>
+				</tr>
+				<tr>
+					<table class = "c">
+						<tr>
+							<td><h1><i>Shop Wines
+							</i></h1></td>
+						</tr>
+					</table>
+				</tr>
+			</table>
+		</header>
+
+			<div class = "d">
+				<div id="mySidenav" class="sidenav">
+					<a href="sparkle.html" id="about">Sparkle</a>
+					<a href="red.html" id="blog">Red</a>
+					<a href="pinot.html" id="projects">Pinot</a>
+					<a href="shiraz.html" id="contact">Shiraz</a>
+		
+				</div>
+			
+				<br>
+					<table class = "e">
+						<tr>
+
+							<td><a href= "Pinot.html">
+									<img src ="wine bottle3.jpg">
+								</a>
+								<div class="desc">Pinot Noir <br><br> $150.00<br><br>★★★★★</div>
+								
+							</td>
+
+							<td><a href= "Pinot.html">
+									<img src ="wine bottle4.jpg">
+								</a>
+								<div class="desc">Steiner Kékfrankos <br><br> $120.00 <br><br>★★★★☆</div>
+								
+							</td>
+							
+							<td><a href= "Pinot.html">
+									<img src ="wine bottle5.jpg">
+								</a>
+								<div class="desc">Merlot Balf <br><br> $180.00 <br><br>★★★★★</div>
+							</td>
+						</tr>
+						<tr>
+							<td><a href= "Pinot.html">
+									<img src ="wine bottle10.jpg">
+								</a>
+								<div class="desc">Dürrau Magnum <br><br> $125.00 <br><br>★★★★☆</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+			</div>
+				<div class = "font">
+					<a class = "navigation" href= "Extras.html">Shop Extras</a>
+				</div>
+			<div class = "sentence">
+				<p>"Drinking good wine with good food in good company is one of life's most civilized pleasures."</p>
+				<p>Michael Broadbent</p>
+				<br>
+			</div>
+	</body>
+	<footer>
+	<br>
+		<table class = "foot">
+			<tr>
+				<th class = "font_a">
+					Get to Know 
+					<br>Dws Wine Better
+				</th>
+				<th class = "font_b">
+					Help
+
+				</th>
+				<th class = "font_c">
+					Follow Us
+
+				</th>
+				
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Home page.html">Home</a></td>
+				<td><a class = "font_e" href= "Question.html">FAQ</a></td>
+				<td><a class = "font_f" href= "https://www.facebook.com/">Facebook</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Wine.html">Shop All</a></td>
+				<td><a class = "font_e" href= "Returns.html">Shipping & Returns</a></td>
+				<td><a class = "font_f" href= "https://www.instagram.com/">Instagram</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Extras.html">Extras</a></td>
+				<td><a class = "font_e" href= "Policy.html">Store Policy</a></td>
+				<td><a class = "font_f" href= "Pinterest.html">Pinterest</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "History.html">About Us</a></td>
+				<td><a class = "font_e" href= "Policy.html">Payment Methods</a></td>
+			</tr>
+			<tr>
+				<td><a class = "font_d" href= "Contact.html">Contact</a></td>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th><a class = "font_i" href= "Wine.html">Visit Our Stores</a>
+					<br>
+					<p class = "font_g">Customer service: 123-456-7890</p>
+				</th>
+				<th>
+					<form action="Home page.html">
+						<td>
+							<input class = "Size_1" type = "email" placeholder="Enter Your Email" maxlength="20">
+						</td>
+						
+						<td class = "tdsize1">
+							<input class = "submit" type="submit" value = "Subscribe Now">
+						</td>
+					
+					</form>
+				</th>
+			</tr>
+			<tr>
+				<th>
+				
+				</th>
+				<th>
+				
+				</th>
+				<th>
+					<p class = "font_l">Thanks for submitting!</p>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					
+				</th>
+				<th class = "styleth">
+					&copy; Copyright by DWS
+				</th>
+				<th>
+					
+				</th>
+			</tr>
+		</table>
+	</footer>
+</html>
